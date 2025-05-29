@@ -3,5 +3,28 @@
   "lang": {
     "es": "Spanish",
     "en": "English"
+  },
+  "steps": {
+    "documentDate": "Identity",
+    "paymentDate": "Timeframes",
+    "summary": "Summary"
+  },
+  "documentDate": {
+    "title": "Complete the date of issue of the document*",
+    "year": "Year*",
+    "month": "Month*",
+    "day": "Day*",
+    "mandatory": "Mandatory*",
+    "continue": "Continue",
+    "errors": {
+      "select_year": "Please select a year",
+      "select_month": "Please select a month",
+      "select_day": "Please select a day",
+      "complete_all_fields": "Please complete all fields",
+      "invalid_date": "Invalid date",
+      "date_cannot_be_future": "Date cannot be in the future",
+      "date_after_minimum": "Date must be after 01/01/1950",
+      "must_be_18": "You must be at least 18 years old"
+    }
   }
 }
