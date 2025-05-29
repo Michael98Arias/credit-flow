@@ -41,6 +41,10 @@ export const useStepperStore = defineStore('stepper', {
       this._documentDate = { day, month, year };
     },
 
+    setPaymentDate (date) {
+      this.paymentDate = date;
+    },
+
     markStepCompleted (step) {
       if (!this.completedSteps.includes(step)) this.completedSteps.push(step);
     },
