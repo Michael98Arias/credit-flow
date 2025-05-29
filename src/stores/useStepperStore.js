@@ -70,5 +70,12 @@ export const useStepperStore = defineStore('stepper', {
         this.currentStep = step;
       }
     },
+
+    reset () {
+      this._documentDate = { day: null, month: null, year: null };
+      this.paymentDate = null;
+      this.currentStep = 1;
+      this.completedSteps = [];
+    },
   },
 });
