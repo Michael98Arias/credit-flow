@@ -1,0 +1,36 @@
+.v-stepper {
+  max-width: 700px;
+  margin: 0 auto;
+
+  .v-stepper-header {
+    .v-stepper-item {
+      transition: opacity 0.3s ease;
+      opacity: 0.5;
+
+      &.v-stepper__step--active {
+        opacity: 1;
+      }
+    }
+
+    .v-divider {
+      border-width: 1px;
+      border-color: rgba(0, 0, 0, 0.12);
+      transition: border-color 0.3s ease, border-width 0.3s ease;
+
+      &.divider-active {
+        border-color: #1976d2;
+        border-width: 3px;
+      }
+    }
+  }
+}
+.step-inactive {
+  opacity: 0.4 !important;
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.step-active {
+  font-weight: 600 !important;
+  color: #1976d2 !important;
+  opacity: 1 !important;
+}

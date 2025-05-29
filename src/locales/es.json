@@ -3,5 +3,28 @@
   "lang": {
     "es": "Español",
     "en": "Inglés"
+  },
+  "steps": {
+    "documentDate": "Identidad",
+    "paymentDate": "Plazos",
+    "summary": "Resumen"
+  },
+  "documentDate": {
+    "title": "Completa la fecha de expedición del documento*",
+    "year": "Año*",
+    "month": "Mes*",
+    "day": "Día*",
+    "mandatory": "Obligatorio*",
+    "continue": "Continuar",
+    "errors": {
+      "select_year": "Seleccione un año",
+      "select_month": "Seleccione un mes",
+      "select_day": "Seleccione un día",
+      "complete_all_fields": "Por favor complete todos los campos",
+      "invalid_date": "Fecha inválida",
+      "date_cannot_be_future": "La fecha no puede ser futura",
+      "date_after_minimum": "La fecha debe ser posterior al 01/01/1950",
+      "must_be_18": "Debe tener al menos 18 años"
+    }
   }
 }
