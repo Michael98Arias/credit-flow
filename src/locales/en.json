@@ -26,5 +26,13 @@
       "date_after_minimum": "Date must be after 01/01/1950",
       "must_be_18": "You must be at least 18 years old"
     }
+  },
+  "paymentDate": {
+    "title": "Choose your payment date",
+    "description": "Remember to choose a date that aligns with your income so you can comfortably make your payments.",
+    "subTitle": "Choose your first payment date",
+    "error": "You must select a payment date before continuing.",
+    "continue": "Confirm",
+    "confirmationHtml": "Your payment date will be on the <strong><day></day> day of each</strong> month."
   }
 }

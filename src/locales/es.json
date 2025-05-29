@@ -26,5 +26,13 @@
       "date_after_minimum": "La fecha debe ser posterior al 01/01/1950",
       "must_be_18": "Debe tener al menos 18 años"
     }
+  },
+  "paymentDate": {
+    "title": "Elige tu fecha de pago",
+    "description": "Recuerda seleccionar una fecha que se ajuste a tus ingresos para que puedas pagar tus cuotas cómodamente.",
+    "subTitle": "Elige tu primera fecha de pago",
+    "error": "Debes seleccionar una fecha antes de continuar.",
+    "continue": "Confirmar",
+    "confirmationHtml": "Tu fecha de pago será el <strong>día <day></day> de cada</strong> mes."
   }
 }
