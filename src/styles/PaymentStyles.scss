@@ -1,0 +1,16 @@
+.centered-container {
+  display: flex;
+  justify-content: center;
+}
+
+.centered-card {
+  width: 100%;
+  max-width: 480px;
+  text-align: center;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.bold-text {
+  font-weight: 700;
+}
