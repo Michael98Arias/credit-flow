@@ -9,7 +9,7 @@ import { VueRouterAutoImports } from 'unplugin-vue-router'
 import Vuetify, { transformAssetUrls } from 'vite-plugin-vuetify'
 
 // Utilities
-import { defineConfig } from 'vite'
+import { defineConfig } from 'vitest/config'
 import { fileURLToPath, URL } from 'node:url'
 
 // https://vitejs.dev/config/
@@ -50,6 +50,17 @@ export default defineConfig({
       vueTemplate: true,
     }),
   ],
+  test: {
+    alias: {
+      '@': fileURLToPath(new URL('./src', import.meta.url)),
+    },
+    environment: 'happy-dom',
+    globals: true,
+    include: [
+      'src/**/*.{test,spec}.{js,ts,jsx,tsx}',
+      'test/**/*.{test,spec}.{js,ts,jsx,tsx}',
+    ],
+  },
   optimizeDeps: {
     exclude: [
       'vuetify',
