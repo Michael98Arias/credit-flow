@@ -34,5 +34,13 @@
     "error": "You must select a payment date before continuing.",
     "continue": "Confirm",
     "confirmationHtml": "Your payment date will be on the <strong><day></day> day of each</strong> month."
+  },
+  "summary": {
+    "title": "Credit Summary",
+    "issueDate": "Date of issue of the document",
+    "paymentDate": "Selected first payment date",
+    "paymentDayEachMonth": "Monthly Payment Day",
+    "notAvailable": "Not available",
+    "confirm": "Confirm"
   }
 }

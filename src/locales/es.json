@@ -34,5 +34,13 @@
     "error": "Debes seleccionar una fecha antes de continuar.",
     "continue": "Confirmar",
     "confirmationHtml": "Tu fecha de pago será el <strong>día <day></day> de cada</strong> mes."
+  },
+  "summary": {
+    "title": "Resumen del Crédito",
+    "issueDate": "Fecha de expedición del documento",
+    "paymentDate": "Fecha del primer pago seleccionada",
+    "paymentDayEachMonth": "Día de pago cada mes",
+    "notAvailable": "No disponible",
+    "confirm": "Confirmar"
   }
 }
