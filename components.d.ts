@@ -8,6 +8,7 @@ export {}
 /* prettier-ignore */
 declare module 'vue' {
   export interface GlobalComponents {
+    DateButton: typeof import('./src/components/PaymentDate/DateButton.vue')['default']
     DaySelect: typeof import('./src/components/DocumentDate/DaySelect.vue')['default']
     MonthSelect: typeof import('./src/components/DocumentDate/MonthSelect.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
